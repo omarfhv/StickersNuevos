@@ -1,0 +1,652 @@
+{
+  "android_play_store_link": "",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "1",
+      "name": "Stickers IMSS",
+      "publisher": "OmarVal",
+      "tray_image_file": "logoi.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"newdevelopers92@gmail.com",
+      "publisher_website": "https://www.facebook.com/tarjetondigitalimss/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "10.webp",
+          "emojis": ["♥"]
+        },
+        {
+          "image_file": "puno.webp",
+          "emojis": ["👨🏻‍⚕","👩🏻‍⚕"]
+        },
+        {
+          "image_file": "lentes.webp",
+          "emojis": ["☕","🥧"]
+        },
+        {
+          "image_file": "silencio.webp",
+          "emojis": ["🏃‍♀","🏃‍♂"]
+        },
+
+        {
+          "image_file": "vino.webp",
+          "emojis": ["🍷","🥂"]
+        },
+        {
+          "image_file": "preso.webp",
+          "emojis": ["🚔","💍"]
+        },
+
+        {
+          "image_file": "rotoim.webp",
+          "emojis": ["💔"]
+        },
+        {
+          "image_file": "amor.webp",
+          "emojis": ["♥"]
+        },
+        {
+          "image_file": "imssdiablo.webp",
+          "emojis": ["😈","😈"]
+        },
+        {
+          "image_file": "angel.webp",
+          "emojis": ["😇","😇"]
+        },
+        {
+          "image_file": "enfermo.webp",
+          "emojis": ["🤒","😷"]
+        },
+        {
+          "image_file": "fuerza.webp",
+          "emojis": ["💪"]
+        },
+        {
+          "image_file": "super.webp",
+          "emojis": ["💪"]
+        },
+        {
+          "image_file": "pngmujer.webp",
+          "emojis": ["💪"]
+        },
+        {
+          "image_file": "porfavor.webp",
+          "emojis": ["👏🏼"]
+        }
+      ,
+        {
+          "image_file": "reno.webp",
+          "emojis": ["🦌","👿"]
+        },
+        {
+          "image_file": "rojo.webp",
+          "emojis": ["🛑","🍪"]
+        },
+        {
+          "image_file": "ola.webp",
+          "emojis": ["😁","👐🏼"]
+        },
+        {
+          "image_file": "explos.webp",
+          "emojis": ["😡","🤯"]
+        },
+        {
+          "image_file": "santa.webp",
+          "emojis": ["☃","❄"]
+        }
+
+      ,
+        {
+          "image_file": "pit.webp",
+          "emojis": ["🖕🏼","🖕🏼"]
+        }
+      ,
+        {
+          "image_file": "paz.webp",
+          "emojis": ["✌🏽"]
+        }
+
+      ,
+        {
+          "image_file": "nomegusta.webp",
+          "emojis": ["👎"]
+        },
+        {
+          "image_file": "megusta.webp",
+          "emojis": ["👍"]
+        },
+        {
+          "image_file": "mans.webp",
+          "emojis": ["🙅‍♀","🙅‍♂"]
+        },
+        {
+          "image_file": "manos.webp",
+          "emojis": ["🧖‍♀","🧖‍♂"]
+        },
+        {
+          "image_file": "libre.webp",
+          "emojis": ["🕺🏻","💃🏻"]
+        },
+        {
+          "image_file": "fiesta.webp",
+          "emojis": ["🎂","🍻"]
+        },
+        {
+          "image_file": "dame5.webp",
+          "emojis": ["✋🏼","👊🏻"]
+        },
+        {
+          "image_file": "basura.webp",
+          "emojis": ["🗑"]
+        }
+      ]
+    },
+
+{
+      "identifier": "6",
+      "name": "Stickers Variado",
+      "publisher": "OmarVal",
+      "tray_image_file": "logos.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+ "publisher_email":"newdevelopers92@gmail.com",
+      "publisher_website": "https://www.facebook.com/tarjetondigitalimss/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+         {
+          "image_file": "ambu.webp",
+          "emojis": ["🚑"]
+        },
+        {
+          "image_file": "9.webp",
+          "emojis": ["👨🏻‍⚕","👩🏻‍⚕"]
+        },
+        {
+          "image_file": "12.webp",
+          "emojis": ["☕","🥧"]
+        },
+        {
+          "image_file": "11.webp",
+          "emojis": ["🏃‍♀","🏃‍♂"]
+        },
+        {
+          "image_file": "ambu2.webp",
+          "emojis": ["🚑","🚑"]
+        },
+        {
+          "image_file": "cami.webp",
+          "emojis": ["🏃‍♀","🏃‍♂"]
+        },
+        {
+          "image_file": "camitra.webp",
+          "emojis": ["🏃‍♀","🏃‍♂"]
+        },
+
+        {
+          "image_file": "dx.webp",
+          "emojis": ["📝"]
+        },
+        {
+          "image_file": "ser.webp",
+          "emojis": ["💍"]
+        },
+
+        {
+          "image_file": "tar.webp",
+          "emojis": ["♥"]
+        },
+        {
+          "image_file": "voy.webp",
+          "emojis": ["🏃‍♀","🏃‍♂"]
+        },
+        {
+          "image_file": "08.webp",
+          "emojis": ["🏃‍♀","🏃‍♂"]
+        },
+        {
+          "image_file": "desayuno.webp",
+          "emojis": ["☕","🥐"]
+        },
+
+        {
+          "image_file": "i.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i1.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i2.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i3.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i4.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i5.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i7.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i8.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i9.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i10.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i11.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i12.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i13.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i14.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "i15.webp",
+          "emojis": ["💚"]
+        }
+      ]
+    },
+
+{
+      "identifier": "7",
+      "name": "Stickers Nuevos",
+      "publisher": "OmarVal",
+      "tray_image_file": "1213.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+       "publisher_email":"newdevelopers92@gmail.com",
+      "publisher_website": "https://www.facebook.com/tarjetondigitalimss/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+         {
+          "image_file": "155.webp",
+          "emojis": ["♥"]
+        },
+        {
+          "image_file": "antim.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "antio.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "beso.webp",
+          "emojis": ["❤"]
+        },
+
+        {
+          "image_file": "besos.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "caja.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "catalogo.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "ceco.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "celular.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "descan.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "emba.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "lady.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "lady1.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "lady2.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "pases.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "preve.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "sex.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "infi.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "txtx.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "vacas.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "ayudo.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m16.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m15.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m14.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m13.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m12.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m11.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m10.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m7.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m6.webp",
+          "emojis": ["💚"]
+        }
+
+      ]
+    },
+
+{
+      "identifier": "2",
+      "name": "Stickers IMSS mas",
+      "publisher": "OmarVal",
+      "tray_image_file": "logomas.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"newdevelopers92@gmail.com",
+      "publisher_website": "https://www.facebook.com/tarjetondigitalimss/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+          {
+          "image_file": "bano.webp",
+          "emojis": ["♥"]
+        },
+        {
+          "image_file": "bien.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "dinero.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "dormir.webp",
+          "emojis": ["❤"]
+        },
+
+        {
+          "image_file": "emerg.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "felicidad.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "gro.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "idea.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "listo.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "pagame.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "pastel.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "reloj.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "rey.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "text.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m9.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "m8.webp",
+          "emojis": ["💚"]
+        },
+ {
+          "image_file": "m5.webp",
+          "emojis": ["💚"]
+        },
+ {
+          "image_file": "m4.webp",
+          "emojis": ["💚"]
+        },
+ {
+          "image_file": "m3.webp",
+          "emojis": ["💚"]
+        },
+ {
+          "image_file": "m2.webp",
+          "emojis": ["💚"]
+        },
+ {
+          "image_file": "m1.webp",
+          "emojis": ["💚"]
+        },
+ {
+          "image_file": "m.webp",
+          "emojis": ["💚"]
+        }
+
+
+  ]
+    },
+
+{
+      "identifier": "9",
+      "name": "Navidad IMSS",
+      "publisher": "OmarVal",
+      "tray_image_file": "1213.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"newdevelopers92@gmail.com",
+      "publisher_website": "https://www.facebook.com/tarjetondigitalimss/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+          {
+          "image_file": "n1.webp",
+          "emojis": ["♥"]
+        },
+        {
+          "image_file": "n2.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "n3.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "n.webp",
+          "emojis": ["❤"]
+        },
+
+        {
+          "image_file": "n4.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "n5.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "n6.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n7.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n8.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n9.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n10.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n11.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n12.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n13.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n14.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n15.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n16.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n17.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n18.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n19.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "n20.webp",
+          "emojis": ["💚"]
+        }
+
+
+
+
+
+
+
+
+  ]
+    }
+
+
+
+
+
+
+  ]
+}
