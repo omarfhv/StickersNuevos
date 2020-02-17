@@ -157,9 +157,17 @@
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
-         {
-          "image_file": "ambu.webp",
-          "emojis": ["🚑"]
+        {
+          "image_file": "ag13.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "es12.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "es13.webp",
+          "emojis": ["💚"]
         },
         {
           "image_file": "9.webp",
@@ -286,6 +294,8 @@
           "image_file": "i15.webp",
           "emojis": ["💚"]
         }
+
+
       ]
     },
 
@@ -641,6 +651,139 @@
 
 
   ]
+    },
+
+    {
+      "identifier": "3",
+      "name": "Emoti IMSS",
+      "publisher": "OmarVal",
+      "tray_image_file": "a13.png",
+      "image_data_version":"1",
+      "avoid_cache":false,
+      "publisher_email":"newdevelopers92@gmail.com",
+      "publisher_website": "https://www.facebook.com/tarjetondigitalimss/",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "im.webp",
+          "emojis": ["♥"]
+        },
+        {
+          "image_file": "im2.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "im3.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "im1.webp",
+          "emojis": ["❤"]
+        },
+
+        {
+          "image_file": "im4.webp",
+          "emojis": ["❤"]
+        },
+        {
+          "image_file": "im5.webp",
+          "emojis": ["💚"]
+        },
+
+        {
+          "image_file": "im6.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im7.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im8.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im9.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im10.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im11.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im12.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im13.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im14.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im15.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im16.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im17.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im18.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im19.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im20.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im21.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im22.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im23.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im24.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im25.webp",
+          "emojis": ["💚"]
+        },
+        {
+          "image_file": "im26.webp",
+          "emojis": ["💚"]
+        }
+
+
+
+
+
+
+
+
+      ]
     }
 
 
