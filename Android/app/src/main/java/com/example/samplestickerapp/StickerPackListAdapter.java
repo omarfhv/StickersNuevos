@@ -24,6 +24,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.facebook.drawee.view.SimpleDraweeView;
+import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.List;
 
@@ -34,8 +35,15 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
     private final OnAddButtonClickedListener onAddButtonClickedListener;
     private int maxNumberOfStickersInARow;
     private int minMarginBetweenImages;
+    InterstitialAd mInterstitialAd;
+
+
+
+
 
     StickerPackListAdapter(@NonNull List<StickerPack> stickerPacks, @NonNull OnAddButtonClickedListener onAddButtonClickedListener) {
+
+
         this.stickerPacks = stickerPacks;
         this.onAddButtonClickedListener = onAddButtonClickedListener;
     }
@@ -47,6 +55,10 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
         final LayoutInflater layoutInflater = LayoutInflater.from(context);
         final View stickerPackRow = layoutInflater.inflate(R.layout.sticker_packs_list_item, viewGroup, false);
         return new StickerPackListItemViewHolder(stickerPackRow);
+
+
+
+
     }
 
     @Override
@@ -81,6 +93,7 @@ public class StickerPackListAdapter extends RecyclerView.Adapter<StickerPackList
     }
 
     private void setAddButtonAppearance(ImageView addButton, StickerPack pack) {
+
         if (pack.getIsWhitelisted()) {
             addButton.setImageResource(R.drawable.sticker_3rdparty_added);
             addButton.setClickable(false);

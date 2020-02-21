@@ -15,8 +15,10 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.InterstitialAd;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
@@ -33,6 +35,8 @@ public class StickerPackListActivity extends AddStickerPackActivity {
     private WhiteListCheckAsyncTask whiteListCheckAsyncTask;
     private ArrayList<StickerPack> stickerPackList;
     private AdView mAdView;
+    InterstitialAd mInterstitialAd;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +45,12 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         mAdView = findViewById(R.id.adView1);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
+
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-9129010539844350/9620578226");
+        AdRequest adRequest1 = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest1);
+        mInterstitialAd.setAdListener(new AdListener());
 
         packRecyclerView = findViewById(R.id.sticker_pack_list);
         stickerPackList = getIntent().getParcelableArrayListExtra(EXTRA_STICKER_PACK_LIST_DATA);
@@ -64,6 +74,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         if (whiteListCheckAsyncTask != null && !whiteListCheckAsyncTask.isCancelled()) {
             whiteListCheckAsyncTask.cancel(true);
         }
+
     }
 
     private void showStickerPackList(List<StickerPack> stickerPackList) {
@@ -78,23 +89,34 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         packRecyclerView.addItemDecoration(dividerItemDecoration);
         packRecyclerView.setLayoutManager(packLayoutManager);
         packRecyclerView.getViewTreeObserver().addOnGlobalLayoutListener(this::recalculateColumnCount);
+
+
     }
 
 
     private final StickerPackListAdapter.OnAddButtonClickedListener onAddButtonClickedListener = pack -> addStickerPackToWhatsApp(pack.identifier, pack.name);
 
 
+
     private void recalculateColumnCount() {
         final int previewSize = getResources().getDimensionPixelSize(R.dimen.sticker_pack_list_item_preview_image_size);
         int firstVisibleItemPosition = packLayoutManager.findFirstVisibleItemPosition();
         StickerPackListItemViewHolder viewHolder = (StickerPackListItemViewHolder) packRecyclerView.findViewHolderForAdapterPosition(firstVisibleItemPosition);
+        if (mInterstitialAd.isLoaded()) {
+            mInterstitialAd.show();
+        }
         if (viewHolder != null) {
             final int widthOfImageRow = viewHolder.imageRowView.getMeasuredWidth();
             final int max = Math.max(widthOfImageRow / previewSize, 1);
             int maxNumberOfImagesInARow = Math.min(STICKER_PREVIEW_DISPLAY_LIMIT, max);
             int minMarginBetweenImages = (widthOfImageRow - maxNumberOfImagesInARow * previewSize) / (maxNumberOfImagesInARow - 1);
             allStickerPacksListAdapter.setImageRowSpec(maxNumberOfImagesInARow, minMarginBetweenImages);
+            if (mInterstitialAd.isLoaded()) {
+                mInterstitialAd.show();
+            }
         }
+
+
     }
 
 
@@ -103,6 +125,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
 
         WhiteListCheckAsyncTask(StickerPackListActivity stickerPackListActivity) {
             this.stickerPackListActivityWeakReference = new WeakReference<>(stickerPackListActivity);
+
         }
 
         @Override
@@ -111,6 +134,7 @@ public class StickerPackListActivity extends AddStickerPackActivity {
             if (stickerPackListActivity == null) {
                 return Arrays.asList(stickerPackArray);
             }
+
             for (StickerPack stickerPack : stickerPackArray) {
                 stickerPack.setIsWhitelisted(WhitelistCheck.isWhitelisted(stickerPackListActivity, stickerPack.identifier));
             }
@@ -120,10 +144,14 @@ public class StickerPackListActivity extends AddStickerPackActivity {
         @Override
         protected void onPostExecute(List<StickerPack> stickerPackList) {
             final StickerPackListActivity stickerPackListActivity = stickerPackListActivityWeakReference.get();
+
             if (stickerPackListActivity != null) {
                 stickerPackListActivity.allStickerPacksListAdapter.setStickerPackList(stickerPackList);
                 stickerPackListActivity.allStickerPacksListAdapter.notifyDataSetChanged();
+
             }
+
         }
+
     }
 }

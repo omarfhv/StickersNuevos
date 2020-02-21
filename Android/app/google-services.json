@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "92964438280",
+    "firebase_url": "https://stickers-imsstitucionales.firebaseio.com",
+    "project_id": "stickers-imsstitucionales",
+    "storage_bucket": "stickers-imsstitucionales.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92964438280:android:2df0523fc9efaf1c77ecbd",
+        "android_client_info": {
+          "package_name": "com.imsstitucional.haisemberg1213"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92964438280-lfnuju7vdfv0v0opv50ti6ubu3ur5mh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPmIavDruKXz5OY_EP7g5EUyV-ra5qLzc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92964438280-lfnuju7vdfv0v0opv50ti6ubu3ur5mh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
