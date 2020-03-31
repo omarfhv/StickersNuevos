@@ -145,6 +145,125 @@
       ]
     },
 
+    {
+
+    "identifier": "10",
+    "name": "Stickers Corona",
+    "publisher": "OmarVal",
+    "tray_image_file": "1292.png",
+    "image_data_version":"1",
+    "avoid_cache":false,
+    "publisher_email":"newdevelopers92@gmail.com",
+    "publisher_website": "https://www.facebook.com/tarjetondigitalimss/",
+    "privacy_policy_website": "",
+    "license_agreement_website": "",
+    "stickers": [
+      {
+        "image_file": "cor.webp",
+        "emojis": ["♥"]
+      },
+      {
+        "image_file": "cor1.webp",
+        "emojis": ["❤"]
+      },
+      {
+        "image_file": "cor2.webp",
+        "emojis": ["❤"]
+      },
+      {
+        "image_file": "cor3.webp",
+        "emojis": ["❤"]
+      },
+
+      {
+        "image_file": "cor4.webp",
+        "emojis": ["❤"]
+      },
+      {
+        "image_file": "cor5.webp",
+        "emojis": ["💚"]
+      },
+
+      {
+        "image_file": "cor6.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor7.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor8.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor9.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor10.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor11.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor12.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor13.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor14.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor15.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor16.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor17.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor18.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor19.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor20.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor21.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor22.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor23.webp",
+        "emojis": ["💚"]
+      },
+      {
+        "image_file": "cor24.webp",
+        "emojis": ["💚"]
+      }
+
+    ]
+    },
+
 {
       "identifier": "6",
       "name": "Stickers Variado",
